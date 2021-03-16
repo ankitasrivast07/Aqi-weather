@@ -276,3 +276,73 @@ margin-top:130px;
   border-radius: 10px;
   padding: 10px;
 }
+
+@media (min-width:100px) and (max-width: 767px){
+  #cover{
+    width: 100%;
+    top: 12%;
+  }
+  .he1 {
+    height: 300px!important;
+  
+}
+.img1 {
+  width: 17%;
+  margin-top: -2%;
+}
+  .img3 {
+    width: 20%;
+    margin-top: -3%;
+}
+  .location1{
+    font-size: 18px;
+  }
+  .img2 {
+    width: 28%;
+    margin-top: -5%;
+}
+.cityInfo span {
+  padding: 10px;
+}
+span {
+  /* font-size: px; */
+  font-size: 16px;
+}
+  .location{
+    font-size: 20px;
+    padding: 0;
+  }
+  .weather{
+    font-size: 20px;
+    padding: 0;
+  }
+  .temp{
+    font-size: 50px;
+  }
+}
+
+@media (min-width:768px) and (max-width: 1200px){
+  .location {
+    padding: 20px;
+    font-size: 25px;
+  }
+  .temp{
+    font-size: 50px;
+  }
+  .weather {
+    padding: 20px;
+    font-size: 28px;
+  }
+  .img3 {
+    width: 32%;
+    margin-top: -10%;
+}
+.img2 {
+  width: 48%;
+  margin-top: -16%;
+}
+.img1 {
+  width: 29%;
+  margin-top: -10%;
+}
+}
